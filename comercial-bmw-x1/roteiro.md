@@ -75,3 +75,10 @@ Mesma timeline; reenquadramento central de cada cena; S4 usa IMG_1195 (vertical 
 - Clipes IA (Seedance 2.0, imagem→vídeo sobre fotos reais): cenas s1, s2, s3, s6, s7a, s7b — verificados quadro a quadro, veículo inalterado
 - Demais cenas: Ken Burns sobre as fotos originais em 5712 px
 - Narração: TTS PT-BR (voz "Roman"), 9 trechos; trilha: sound design autoral sincronizado aos cortes
+
+## v2 — cenas Veo 3 fast (2026-07-22)
+
+Pedido: animações via Veo ("Google Flow", variante lite/fast). QA quadro a quadro da saída Veo:
+- **Aprovadas (usadas na v2):** s1 garagem frontal (íntegra), s2 garagem traseira (até 3,6s), s6 interior (até 4,2s, desacelerado p/ 5s)
+- **Reprovadas (mantido Seedance da v1):** s3 (dianteira morfou p/ X1 de nova geração), s7a (sombra de pessoa + traseira morfada), s7b (placa alterada p/ "FJT9H03")
+Regra aplicada: fidelidade ao veículo > modelo específico. Arquivos: BMW_X1_comercial_16x9_v2.mp4 (+preview). Versão 9:16 permanece a v1 (cenas Ken Burns, sem IA).
