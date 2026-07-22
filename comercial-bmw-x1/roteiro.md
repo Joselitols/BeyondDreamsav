@@ -82,3 +82,11 @@ Pedido: animações via Veo ("Google Flow", variante lite/fast). QA quadro a qua
 - **Aprovadas (usadas na v2):** s1 garagem frontal (íntegra), s2 garagem traseira (até 3,6s), s6 interior (até 4,2s, desacelerado p/ 5s)
 - **Reprovadas (mantido Seedance da v1):** s3 (dianteira morfou p/ X1 de nova geração), s7a (sombra de pessoa + traseira morfada), s7b (placa alterada p/ "FJT9H03")
 Regra aplicada: fidelidade ao veículo > modelo específico. Arquivos: BMW_X1_comercial_16x9_v2.mp4 (+preview). Versão 9:16 permanece a v1 (cenas Ken Burns, sem IA).
+
+## v3 — narração corrigida com Kokoro (2026-07-22)
+
+- Narração regenerada localmente com **Kokoro** (voz pm_alex, lang pt-br, fonemas espeak) — substitui o TTS anterior que saiu com sotaque pt-PT/inglês
+- Termos em inglês reescritos foneticamente no texto ("xis dráive", "Tuín Páuer Turbo", "teste dráive") para pronúncia correta
+- vo3/vo4 encurtadas para caber nos slots (nome completo já aparece na cartela)
+- Arquivos: BMW_X1_comercial_16x9_v3.mp4 e BMW_X1_comercial_9x16_v3.mp4 (+previews)
+- **Visual ainda é o da v2** (interino). Redo 100% Google Flow: aguarda os clipes gerados pelo usuário — ver `flow-kit/LEIA-ME.md` (13 frames + prompts prontos; nomeie os clipes s1..s9 em media/ que a remontagem por ffmpeg é imediata)
