@@ -66,3 +66,12 @@ Mesma timeline; reenquadramento central de cada cena; S4 usa IMG_1195 (vertical 
 
 ## Contato (cartela final)
 (11) 99846-1000 — Joselito
+
+## Entrega (2026-07-22)
+
+- `BMW_X1_comercial_16x9.mp4` — master 1920×1080, 61,4 s, narração + trilha
+- `BMW_X1_comercial_9x16.mp4` — vertical 1080×1920 (Stories/Reels/WhatsApp)
+- `BMW_X1_preview_*.mp4` — previews leves para celular
+- Clipes IA (Seedance 2.0, imagem→vídeo sobre fotos reais): cenas s1, s2, s3, s6, s7a, s7b — verificados quadro a quadro, veículo inalterado
+- Demais cenas: Ken Burns sobre as fotos originais em 5712 px
+- Narração: TTS PT-BR (voz "Roman"), 9 trechos; trilha: sound design autoral sincronizado aos cortes
