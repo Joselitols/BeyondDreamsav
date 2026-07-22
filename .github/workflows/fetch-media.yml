@@ -1,6 +1,12 @@
 name: fetch-media
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - "claude/vehicle-sales-commercial-video-6tojwl"
+    paths:
+      - "comercial-bmw-x1/media-manifest.json"
+      - ".github/workflows/fetch-media.yml"
 permissions:
   contents: write
 jobs:
