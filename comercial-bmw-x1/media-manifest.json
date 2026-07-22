@@ -1,8 +1,4 @@
 [
-  {"url": "https://d8j0ntlcm91z4.cloudfront.net/user_38orn1whkUAWpwvh5aaO0qtGyhA/hf_20260722_174739_59e17f50-fbf9-4533-9672-a509d2c5acf6.mp4", "path": "comercial-bmw-x1/media/s1.mp4"},
-  {"url": "https://d8j0ntlcm91z4.cloudfront.net/user_38orn1whkUAWpwvh5aaO0qtGyhA/hf_20260722_174725_30f3d4d4-89ae-4239-9517-662cbd536b8c.mp4", "path": "comercial-bmw-x1/media/s2.mp4"},
-  {"url": "https://d8j0ntlcm91z4.cloudfront.net/user_38orn1whkUAWpwvh5aaO0qtGyhA/hf_20260722_174727_0de81ccb-665d-4651-9ebb-194bf771f258.mp4", "path": "comercial-bmw-x1/media/s3.mp4"},
-  {"url": "https://d8j0ntlcm91z4.cloudfront.net/user_38orn1whkUAWpwvh5aaO0qtGyhA/hf_20260722_174742_c29c38a7-0e0f-4d44-b086-3b10859f32d0.mp4", "path": "comercial-bmw-x1/media/s6.mp4"},
-  {"url": "https://d8j0ntlcm91z4.cloudfront.net/user_38orn1whkUAWpwvh5aaO0qtGyhA/hf_20260722_174744_1fcb2d0b-44a4-4e70-8319-407ac16c742d.mp4", "path": "comercial-bmw-x1/media/s7a.mp4"},
-  {"url": "https://d8j0ntlcm91z4.cloudfront.net/user_38orn1whkUAWpwvh5aaO0qtGyhA/hf_20260722_174746_62a9cfda-ea84-48bf-8ba9-f4f0096c4605.mp4", "path": "comercial-bmw-x1/media/s7b.mp4"}
+  {"url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.int8.onnx", "path": "comercial-bmw-x1/kokoro/kokoro-v1.0.int8.onnx"},
+  {"url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin", "path": "comercial-bmw-x1/kokoro/voices-v1.0.bin"}
 ]
