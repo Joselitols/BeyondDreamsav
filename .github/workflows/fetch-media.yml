@@ -1,0 +1,36 @@
+name: fetch-media
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "claude/vehicle-sales-commercial-video-6tojwl"
+    paths:
+      - "comercial-bmw-x1/media-manifest.json"
+      - ".github/workflows/fetch-media.yml"
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download media from manifest
+        run: |
+          set -e
+          M=comercial-bmw-x1/media-manifest.json
+          [ -f "$M" ] || { echo "no manifest"; exit 0; }
+          n=$(jq length "$M")
+          for i in $(seq 0 $((n-1))); do
+            url=$(jq -r ".[$i].url" "$M")
+            path=$(jq -r ".[$i].path" "$M")
+            mkdir -p "$(dirname "$path")"
+            echo "GET $url -> $path"
+            curl -fSL --retry 3 --retry-delay 3 -o "$path" "$url"
+          done
+      - name: Commit and push
+        run: |
+          git config user.name "media-fetch-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "CI: fetch generated media"
+          git push
